@@ -30,7 +30,7 @@ const AppBar = () => {
   }, []);
 
   return (
-    <Navbar isBordered variant="floating" maxWidth="fluid" >
+    <Navbar isBordered variant="" maxWidth="fluid" >
       <Navbar.Brand css={{ mr: "$4" }} enableCursorHighlight>
         <AcmeLogo />
         <Text b color="inherit" css={{ mr: "$11" }} hideIn="xs">
